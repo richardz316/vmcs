@@ -177,7 +177,9 @@ public class MaintenanceController {
             msg.setLocation(500, 500);
             return;
         }
-
+	
+	mpanel.initCollectCash();
+        mpanel.initTotalCash();
         mpanel.setActive(MaintenancePanel.DIALOG, true);
 
     }
